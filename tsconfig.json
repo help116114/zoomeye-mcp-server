@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",   // source .ts files reside here
+    "outDir": "build",  // compiled .js files go here
+    "module": "ESNext",
+    "target": "ES2020",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

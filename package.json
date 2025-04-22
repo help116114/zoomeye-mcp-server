@@ -1,0 +1,40 @@
+{
+  "name": "zoomeye-mcp-server",
+  "version": "0.1.0",
+  "description": "A Model Context Protocol server for ZoomEye API integration",
+  "private": true,
+  "author": "Your Name <youremail@example.com> (https://github.com/your-org/zoomeye-mcp-server)",
+  "homepage": "https://github.com/help116114/zoomeye-mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/help116114/zoomeye-mcp-server.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "zoomeye",
+    "mcp",
+    "model-context-protocol",
+    "cybersecurity",
+    "claude"
+  ],
+  "type": "module",
+  "bin": {
+    "zoomeye-mcp-server": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.7.0",
+    "axios": "^1.8.4",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
